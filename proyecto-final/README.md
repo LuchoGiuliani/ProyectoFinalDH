@@ -12,7 +12,7 @@ Página de ingreso de dinero
 Página de actividad del usuario
 Página de pago de servicios
 
-Utilizar Next JS, Vercel para el deploy,  implementar una instancia Bucket S3 para el frontend e imagenes desde la consola de AWS
+Utilizar Next JS, Vercel para el deploy,  [implementar una instancia Bucket S3] para el frontend e imagenes desde la consola de AWS
 Utilizar GitLab
 
 - Sprint 1 :
@@ -31,7 +31,7 @@ Página de mi perfil.
 Página de gestión de medios de pago.
 Página de ingreso de dinero
 
-Para el acceso a estas páginas el usuario deberpa estar logueado y el token deberá ser enviado para la seguridad del sitio.
+Para el acceso a estas páginas el usuario deberá estar logueado y el token deberá ser enviado para la seguridad del sitio.
 Una página donde se muestran los datos del usuario "Mi perfil" y donde podrá editar algunos de sus datos.
 Otra página para gestionar los medios de pagos que el usuario puede asociar a su billetera.
 Y la página de ingreso de dinero a la billetera, es decir, cargar saldo a la billetera utilizando los medios de pagos asociados.
@@ -62,6 +62,7 @@ Bocetos Figma.
 Encontrar Paleta de colores.
 Encontrar Nombre para la marca: DigitalPurse.
 Encontrar Fuente para la página: Montserrat.
+Hacer pruebas Postman con la API DH.
 
 
 
