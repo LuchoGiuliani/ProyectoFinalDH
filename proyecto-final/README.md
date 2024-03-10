@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Next JS Proyecto Final DH
 
-## Getting Started
+## Funcionalidades esperadas
 
-First, run the development server:
+Página de inicio o landing page
+Página de registro de usuario
+Página de login
+Página de Dashboard
+Página de perfil de usuario
+Página de gestión de pago
+Página de ingreso de dinero
+Página de actividad del usuario
+Página de pago de servicios
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Utilizar Next JS, Vercel para el deploy,  implementar una instancia Bucket S3 para el frontend e imagenes desde la consola de AWS
+Utilizar GitLab
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Sprint 1 :
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Página de inicio, registro, inicio y cierre de sesión.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Crear una página de inicio que muestre los serviciosque ofrece la billetera, y que tenga link al formulario de registro e inicio de sesión. Todo esto incluyendo el testing correspondiente a las páginas desarrolladas, validación de datos en formularios y de respuestas de error desde la Rest API.
+Usar react para el desarrollo con el framework Next.js y deployar en Vercel.
+Conectar todo el front-end al back-end provisto por DH.
 
-## Learn More
+LINK: https://digitalmoney.ctd.academy/swagger/index.html
 
-To learn more about Next.js, take a look at the following resources:
+- Sprint 2: 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Página de mi perfil.
+Página de gestión de medios de pago.
+Página de ingreso de dinero
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para el acceso a estas páginas el usuario deberpa estar logueado y el token deberá ser enviado para la seguridad del sitio.
+Una página donde se muestran los datos del usuario "Mi perfil" y donde podrá editar algunos de sus datos.
+Otra página para gestionar los medios de pagos que el usuario puede asociar a su billetera.
+Y la página de ingreso de dinero a la billetera, es decir, cargar saldo a la billetera utilizando los medios de pagos asociados.
+Se mantienen las mismas especificaciones técnicas del sprint 1, así como el testing, validación de formularios y respuestas de la Rest API.
 
-## Deploy on Vercel
+- Sprint 3: 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Pago de servicios y dashboard
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Para el acceso a estas páginas el usuario deberá
+estar logueado.
+De una lista de servicios precargados que se ofrecerán al usuario, este podra seleccionar un servicio y proceder a pagar usando el saldo disponible en la billetera o algún medio de pago de los registrados en la billetera.
+Poder ver en la pantalla un comprobante del pago realizado y validación de formularios y de saldo disponible para realizar el pago de seleccionar la billetera en el pago de servicios.
+El dashboard muestra el saldo disponible en cuenta y un resumen de los ultimos movimientos/transacciones realizadas por el usuario con su billetera virtual.
+Se deberá trabajar con las mismas especificaciones técnicas, testing, validaciones de formularios y respuestas de la Rest API.
+
+- Sprint 4:
+
+Actividad del usuario
+
+La actividad del usuario permite ver todos los movimientos realizados por el usuario usando su billetera, es decir, ingresos y egresos de dinero, y poder usar ciertos filtros para realizar búsqueda de esos movimientos.
+
+
+
