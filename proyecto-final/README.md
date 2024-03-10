@@ -17,9 +17,9 @@ Utilizar GitLab
 
 - Sprint 1 :
 
-Página de inicio, registro, inicio y cierre de sesión.
+Página de inicio, registro y cierre de sesión.
 
-Crear una página de inicio que muestre los serviciosque ofrece la billetera, y que tenga link al formulario de registro e inicio de sesión. Todo esto incluyendo el testing correspondiente a las páginas desarrolladas, validación de datos en formularios y de respuestas de error desde la Rest API.
+Crear una página de inicio que muestre los servicios que ofrece la billetera, y que tenga link al formulario de registro e inicio de sesión. Todo esto incluyendo el testing correspondiente a las páginas desarrolladas, validación de datos en formularios y de respuestas de error desde la Rest API.
 Usar react para el desarrollo con el framework Next.js y deployar en Vercel.
 Conectar todo el front-end al back-end provisto por DH.
 
@@ -53,6 +53,19 @@ Se deberá trabajar con las mismas especificaciones técnicas, testing, validaci
 Actividad del usuario
 
 La actividad del usuario permite ver todos los movimientos realizados por el usuario usando su billetera, es decir, ingresos y egresos de dinero, y poder usar ciertos filtros para realizar búsqueda de esos movimientos.
+
+
+Dia 1 :
+
+Buscar referencias: Lemon, Brubank, Modo, Uala
+Bocetos Figma.
+Encontrar Paleta de colores.
+Encontrar Nombre para la marca: DigitalPurse.
+Encontrar Fuente para la página: Montserrat.
+
+
+
+
 
 
 
