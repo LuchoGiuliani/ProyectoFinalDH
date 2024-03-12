@@ -25,7 +25,7 @@ const page = () => {
       </section>
       <section className='flex flex-col h-screen items-center justify-center p-4 gap-4'>
          <div className=''>
-          <h1 className='text-center'>Iniciar sesión</h1>
+          <h1 className='text-center p-2'>¡Hola! Ingresá tu e-mail</h1>
           <div>
           <LoginForm />
           </div>

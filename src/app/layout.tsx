@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/navbar/Navbar";
 
-const roboto = Roboto({ weight: ["100","300", "400", "500", "700", "900" ], subsets : ["latin"] });
+import Footer from "@/components/footer/Footer";
+
+const roboto = Roboto({
+  weight: ["100", "300", "400", "500", "700", "900"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "DigitalMoneyHouse",
@@ -18,9 +22,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
-      
         {children}
-
+        <Footer />
       </body>
     </html>
   );
