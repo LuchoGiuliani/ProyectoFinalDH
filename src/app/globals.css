@@ -34,7 +34,8 @@ body {
 
 
 .background_hero {
-  background-image: url("/bg_hero.png");
+  background-image: url("/bg-hero.png");
  background-repeat: no-repeat;
- background-size: cover;
+ background-size: contain;
+
 }
