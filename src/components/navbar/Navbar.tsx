@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#052A2D] flex justify-between px-4 py-2 items-center">
+    <div className="bg-[#052A2D] flex justify-between px-4 py-2 items-center  ">
       <section>
         <Link href={"/"}>
           <Image
