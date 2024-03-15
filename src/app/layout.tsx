@@ -27,7 +27,7 @@ export default function RootLayout({
         <link rel="icon" href="/logo.png" />
       </Head>
       <body className={`${roboto.className}`}>
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
         <Footer />
       </body>

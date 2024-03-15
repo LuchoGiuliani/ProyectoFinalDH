@@ -1,4 +1,5 @@
 "use client"
+import Navbar from "@/components/navbar/Navbar";
 import React, { useState, ChangeEvent, FormEvent } from "react";
 
 
@@ -37,27 +38,28 @@ const Page: React.FC = () => {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://digitalmoney.ctd.academy/api/users", {
+      const response = await fetch(`${BASE_URL}/api/users`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
         },
-        body: JSON.stringify(formData)
+        body: JSON.stringify({ User: formData }) 
       });
       if (!response.ok) {
         throw new Error("Error al crear la cuenta");
       }
       const data: ApiResponse = await response.json();
       console.log("Usuario creado:", data);
-      // Aquí puedes manejar la respuesta, redirigir al usuario, etc.
+    
     } catch (error) {
       console.error("Error:", error.message);
-      // Aquí puedes mostrar un mensaje de error al usuario
+      
     }
   };
 
   return (
     <section className='h-screen bg-[#052A2D]'>
+      <Navbar />
       <div className="flex flex-col gap-4 p-4 justify-center items-center">
         <h1 className="text-white text-center">Crear Cuenta</h1>
         <form className="flex flex-col justify-center items-center gap-4" onSubmit={handleSubmit}>

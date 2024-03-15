@@ -11,7 +11,7 @@ const page = () => {
 
   return (
     <div className='h-screen bg-[#052A2D]'>
-      <section className='bg-[#0AEB8C] flex justify-between px-4 py-2 items-center'>
+      <section className='bg-[#0AEB8C] flex justify-between px-4  items-center h-9'>
       <Link href={"/"}>
           <Image
             className="w-auto h-auto "
@@ -25,7 +25,7 @@ const page = () => {
       </section>
       <section className='flex flex-col h-screen items-center justify-center p-4 gap-4'>
          <div className=''>
-          <h1 className='text-center p-2'>¡Hola! Ingresá tu e-mail</h1>
+          <h1 className='text-center p-2 text-white'>¡Hola! Ingresá tu e-mail</h1>
           <div>
           <LoginForm />
           </div>
