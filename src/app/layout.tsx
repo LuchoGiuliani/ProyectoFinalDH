@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Footer from "@/components/footer/Footer";
 import Head from "next/head";
+import Navbar from "@/components/navbar/Navbar";
 
 const roboto = Roboto({
   weight: ["100", "300", "400", "500", "700", "900"],
@@ -26,6 +27,7 @@ export default function RootLayout({
         <link rel="icon" href="/logo.png" />
       </Head>
       <body className={`${roboto.className}`}>
+        <Navbar />
         {children}
         <Footer />
       </body>

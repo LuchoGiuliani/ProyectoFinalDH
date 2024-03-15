@@ -15,7 +15,7 @@
   
 }
 
-@media (min-width: 494px) {
+@media (min-width: 594px) {
   .background_hero {
     background-image: url("/bg_hero.png");
     background-size: cover; 
@@ -23,6 +23,5 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    
   }
 }
